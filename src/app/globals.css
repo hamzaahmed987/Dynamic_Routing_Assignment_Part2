@@ -1,0 +1,60 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+
+
+.cust_button {
+  margin: 10px;
+  width: fit-content;
+  list-style: none;
+  
+}
+
+.cust_button a{
+  font-size: medium;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background-color:rgb(134, 167, 167);
+}
+
+.cust_button a:hover{
+  border: 3px solid midnightblue;
+  color: rgb(9, 93, 163);
+}
+
+
+.d-flex{
+  padding: 10px;
+  margin: 20px;
+}
+
+li{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
